@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(8, 6, 7);
+    text-shadow: 2px 2px 5px rgb(211, 211, 211);
+    padding-top: 55px;
+}
+
+img{
+    width: 40vw;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgb(34, 34, 34);
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(177, 177, 177);
+}
+
+ul{
+   
+}
+nav{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    } 
+
+p{
+    font-size: 17px;
+   
+    
+}
+
+.contenitore{
+    display: flex;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+    text-decoration: none; /* Rimuove la linea sotto i link */
+    color: white;
+    font-size: 18px;
+    margin: 0 30px; /* Spazio tra i link */
+    
+    display: inline-block;
+    font-family: Arial, sans-serif;
+
+}
+
+span{
+    font-weight: bold;
+}

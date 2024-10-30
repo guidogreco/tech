@@ -1,0 +1,132 @@
+img{
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: block;
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(27, 21, 141);
+    text-shadow: 2px 2px 5px rgb(33, 32, 33);
+    padding-top: 55px;
+}
+
+nav{
+display: flex;
+width: 100%;
+position: fixed;
+} 
+
+.link{
+    text-decoration: none;
+    font-size: 20px
+}
+
+body{
+    margin: 0%;
+    background-color: rgb(84, 84, 84);
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: rgb(24, 0, 132);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contenitore{
+    margin-top: 20px;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+ .card{
+    background-color: rgb(29, 22, 123);
+    margin: 10px;
+    width: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+
+.card:hover{
+    scale: 1.1;
+    background-color: rgba(249, 246, 246, 0.63);
+}
+
+ /* img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%; 
+
+}   */
+
+button{
+    border-radius: 8px;
+    bottom: 3px;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+ nav{
+z-index: 1000;
+} 
+
+a{
+    text-decoration: none; /* Rimuove la linea sotto i link */
+    color: white;
+    font-size: 18px;
+    
+    
+    display: inline-block;
+    font-family: Arial, sans-serif;
+
+
+}
+
+footer{
+    background-color: rgb(21, 21, 20);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: ;
+    bottom: 0;
+} 
+
+p{
+    font-family: 'Arial', sans-serif;  
+    font-size: 1.1rem;
+    line-height: 1.6;                 
+    color: #333;                     
+    background-color: #f9f9f9;        
+    padding: 20px;                    
+    border-left: 4px solid #007acc;   
+    border-radius: 8px;               
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 800px;                 
+    margin: 20px auto;     
+}
+.igg{
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+}
+
+.carosello{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
